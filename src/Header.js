@@ -6,6 +6,7 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
 import {
     Link
 } from "react-router-dom";
+import logo from './logo.png';
 
 function Header({ cartItems, user, signOut }) {
 
@@ -27,7 +28,7 @@ function Header({ cartItems, user, signOut }) {
         <Container>
             <HeaderLogo>
                 <Link to="/">
-                    <img src={"https://i.imgur.com/7I9Was5.png"} />
+                    <img src={logo} />
                 </Link>
             </HeaderLogo>
 
